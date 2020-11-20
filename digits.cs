@@ -19,7 +19,7 @@ class digits
 				twodigits ++;
 
 				else if (input/1000 == 0)
-				treedigits ++;
+				threedigits ++;
 				
 				else
 				morethanthree ++;
@@ -29,7 +29,7 @@ class digits
 		}
 	
 		Console.WriteLine("one: {0} two: {1} three: {2} more: {3}", onedigit, 
-		twodigits, treedigits, morethanthree); 
+		twodigits, threedigits, morethanthree); 
  	}
 }
 
