@@ -10,20 +10,20 @@ class digits
 		while(e!="end") // read the number as string to check the word "end"
 		{
 			int input = Convert.ToInt32(e);
-       		if(input != 0)
+			if(input != 0)
 			{
-       			if(input/10 == 0)
-           		onedigit ++; 
-       		
+				if(input/10 == 0)
+				onedigit ++;
+				
 				else if (input/100 == 0)
-				twodigits ++; 
-        	
+				twodigits ++;
+
 				else if (input/1000 == 0)
-        		treedigits ++; 
-        	
+				treedigits ++;
+				
 				else
-           		morethanthree ++;
-        	}
+				morethanthree ++;
+			}
 		
 			e = Console.ReadLine();
 		}
