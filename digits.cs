@@ -7,7 +7,7 @@ class digits
 		int onedigit = 0, twodigits = 0, threedigits = 0, morethanthree = 0;
 		Console.Write("Insert a number: ");
 		string e = Console.ReadLine();
-		while(e!="end") // read the number as string to check the word "end"
+		while(e!="end")
 		{
 			int input = Convert.ToInt32(e);
 			if(input != 0)
@@ -25,6 +25,7 @@ class digits
 				morethanthree ++;
 			}
 		
+			Console.Write("Insert a number: ");
 			e = Console.ReadLine();
 		}
 	
